@@ -85,7 +85,7 @@ class Igra:
 # 4.)
 
 
-with open('besede.txt', 'r', encoding='utf-8') as f:
+with open('vislice_2021/besede.txt', 'r', encoding='utf-8') as f:
     bazen_besed = [beseda.strip().upper() for beseda in f.readlines()]
 
 random.choice(bazen_besed)
