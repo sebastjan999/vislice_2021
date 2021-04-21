@@ -2,5 +2,5 @@
 
 ## kratek opis
 
-Vislice so preprosta igra pri kateri moramo uganiti besedo.
+Vislice so preprosta igra pri kateri moramo uganiti besedo. \n
 Na voljo imamo omejeno število poskusov
