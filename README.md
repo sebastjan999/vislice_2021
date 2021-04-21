@@ -3,5 +3,4 @@
 ## kratek opis
 
 Vislice so preprosta igra pri kateri moramo uganiti besedo.
-
-še en poskusek sam da vidm ce mi dela git XD
+Na voljo imamo omejeno število poskusov
