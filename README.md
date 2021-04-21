@@ -10,3 +10,4 @@
 
 Vislice so preprosta igra pri kateri moramo uganiti besedo. 
 Na voljo imamo omejeno število poskusov
+pač pr ns mas 10 poskusou sam to lah varira odvisno od igre :)
