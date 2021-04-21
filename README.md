@@ -4,6 +4,7 @@
 
 * Sebastjan Senk
 * to je pa bl to :(
+* zdej pa delamo konflikt k smo picke XD
 
 ## kratek opis
 
