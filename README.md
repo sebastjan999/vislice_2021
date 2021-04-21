@@ -4,7 +4,7 @@
 
 * Sebastjan Senk
 * to je pa bl to :(
-* * konflikt babyyyy
+* konflikt babyyyy
 
 ## kratek opis
 
