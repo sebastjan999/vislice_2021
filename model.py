@@ -104,48 +104,22 @@ class Vislice:
     def __init__(self):
         self.igre = {}
  
-    def prost_id_igre(self):
-        if len(self.igre) == 0:
-            return 0
+    def prost_id_igre(self): # id igralca, ce slovar prazn vrnemo 0,
+        if len(self.igre) == 0: # ce pa smo ze mel kksn kljuc je pa nou id najlazi nardit tko, 
+            return 0 #da vrnemo najvecji kljuc + 1 :), torej ce mamo 10 igralcev bojo njihovi idji: 1,2,3,4,5,6,7,8,9,10 :)
         else:
             return max(self.igre.keys()) + 1
 
     def nova_igra(self):
         id_igre = self.prost_id_igre()
-        igra = nova_igra()
+        igra = nova_igra() # igra je funkcija, ki ni definirana znotraj nobenga classa tko da ns ne napisemo spredi(glej 95 vrstico)
         self.igre[id_igre] = (igra, ZACETEK)
         return id_igre
 
-    def ugibaj(self,id_igre,crka):
-        igra,_ = self.igre[id_igre]
+    def ugibaj(self,id_igre,crka): #ko ugibamo crko mormo vedt katero igro igramo pa kero crko smo zbrali
+        igra = self.igre[id_igre]
         poskus = igra.ugibaj(crka)
         self.igre[id_igre] = (igra,poskus)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
