@@ -126,27 +126,3 @@ class Vislice:
 
 
 
-# testi :)
-# _____________________________________________________________________________________________
-testno_geslo = 'DEŽUJE'
-testne_crke = ['A', 'E', 'I', 'O', 'U', 'D', 'J', 'K', 'Ž']
-igra = Igra(testno_geslo, testne_crke)
-print(testno_geslo)
-
-igra.zmaga()
-igra.stevilo_napak()
-igra.napacne_crke()
-igra.pravilne_crke()
-igra.geslo
-# __________________________________________________________________________________________________
-igra = nova_igra()
-igra.ugibaj('e')
-igra.ugibaj('i')
-igra.ugibaj('o')
-igra.pravilni_del_gesla()
-igra.ugibaj('k')
-igra.ugibaj('l')
-igra.stevilo_napak()
-igra.ugibaj('a')
-igra.napacne_crke()
-igra.pravilni_del_gesla()
